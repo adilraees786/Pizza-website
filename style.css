@@ -95,6 +95,7 @@ font-size: 2rem;
 text-transform: capitalize;
 font-family: var(--secondry-color);
 line-height: 3rem;
+color: var(--secondry-color);
 
 
 
@@ -153,3 +154,111 @@ transition: all .4s ease-out 0s;
     background-color: transparent;
     color: var(--primary-color);
 }
+
+.wrapper{
+
+    padding-top: 4.25rem;
+
+    padding-bottom: 4.25rem;
+}
+
+.text-content {
+    width: 70%;
+    margin: auto;
+}
+
+
+/*
+=====================
+Header Design
+====================
+*/
+
+.navigation-wrap{
+    position: fixed;
+width: 100%;
+left: 0;
+z-index: 1000;
+-webkit-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;
+}
+
+
+.navigation-wrap .nav-item{
+    padding: 0 0.625rem;
+transition: all 0.3s linear;
+}
+
+.navbar-toggler:focus{
+    outline: unset;
+border: unset;
+box-shadow: unset;
+}
+
+.nav-link{
+font-size: 0.9375;
+font-weight:600;
+text-transform: capitalize;
+color: var(--white-color);
+letter-spacing: 1px;
+}
+.nav-link:hover,
+.nav-link.active{
+    color: var(--primary-color) !important;
+
+}
+
+
+.navigation-wrap .main-btn{
+    padding: 0.3125rem 1.4375rem;
+    box-shadow: none;
+    margin-right: 0.625rem;
+}
+
+
+
+
+/*  Change navbar styling on scroll */
+
+.navigation-wrap .scroll-on{
+position: fixed;
+background-color: var(--white-color);
+top: 0;
+left: 0;
+width: 100%;
+box-shadow: 0 0.125rem  1.75rem  0 rgb(0,0,0,0.09);
+transition: all 0.15s ease-in-out 0s;
+
+}
+
+.navigation-wrap .scroll-on .nav-link{
+
+    color: var(--black-color);
+}
+
+
+.navigation-wrap.scroll-on .nav-link:hover,
+.navigation-wrap.scroll-on .nav-link.active{
+color: var(--primary-color);
+
+}
+
+
+
+/* 
+====================
+top-banner Design
+==================
+ */
+
+ .top-banner{
+width: 100%;
+background: url('../images/bg/bg-1.jpg') no-repeat center;
+background-size: cover;
+padding:16.875rem 0 9.375rem;
+
+ }
+
+ .top-banner p{
+    color: var(--white-color);
+ }
