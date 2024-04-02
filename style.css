@@ -371,7 +371,95 @@ padding-right:3px;
 vertical-align: middle;
 font-weight: 900;
 
+}
+
+/* ==================
+explore food section design
+=====================*/
+ .explore-food .card{
+    border: none;
+background-color: transparent;
+border-radius: 0.9375rem;
+
+ }
+
+ .explore-food .card img{
+
+    border-radius: 15px 15px 0 0;
+object-fit: cover;
+
+ }
+
+
+ .explore-food p{
+    color: var(--text-color);
+font-size: 14px;
+line-height: 22px;
+
+
+ }
+
+
+ /* ==================
+testimonial section design
+=====================*/
+.testimonial-section{
+    background: var(--secondry-color);
+}
+
+.testimonial-section h2{
+    color: var(--white-color);
+}
+
+
+.testimonial-section .carousel-item {
+    margin-top: 3rem;
+padding: 3rem;
+background-color: var(--black-color);
+border-radius: 0.9375rem;
+text-align: center;
 
 
 
 }
+
+.testimonial-section .carousel-item img{
+    max-width: 5rem;
+    border-radius: 50%;
+padding: 0.3125rem;
+
+
+}
+
+
+.testimonial-section .carousel-item p{
+    font-size: 1.125rem;
+line-height: 1.5625rem;
+font-weight: 300;
+color: var(--white-color);
+padding: 0 11% 0.625rem;
+}
+
+
+.testimonial-section .carousel-indicators{
+bottom: -2.8125rem;
+
+
+}
+
+.testimonial-section .carousel-indicators button{
+    width:15px;
+height: 15px;
+outline: none;
+border-radius: 50%;
+border: none;
+margin-left: 1rem;
+opacity: 0.2;
+
+}
+
+.testimonial-section .carousel-item h5{
+    color: var(--secondry-color);
+    font-weight: bolder;
+}
+
