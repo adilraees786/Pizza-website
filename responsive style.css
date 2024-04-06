@@ -29,6 +29,14 @@ padding: 9.375rem 0 9.375rem;
 
 }
 
+/* footer link */
+
+.footer .footer-social a i{
+    padding: 0 0.75rem;
+}
+
+
+
 
 @media (max-width: 767px){
 
